@@ -1,7 +1,7 @@
 # Личный проект «Девайс»
 
 * Студент: [Andrey](https://up.htmlacademy.ru/htmlcss/22/user/788303).
-* Наставник: [Малик Киров]
+* Наставник: [Малик Киров](https://htmlacademy.ru/profile/id17217).
 
 ---
 
