@@ -82,6 +82,17 @@ a {
 .site-navigation a:active {
 	opacity: 0.3;
 }
+.catalog-navigation,
+.breadcrumbs {
+	font-family: 'Open Sans', 'Arial', sans-serif;
+	font-size: 15px;
+	line-height: 30px;
+	font-weight: 300;
+	color: #000000;
+	background-color: #ffffff;
+	list-style: none;
+	text-transform: none;
+}
 .product-groups-list {
 	font-family: 'Gilroy', 'Arial', sans-serif;
 	font-size: 18px;
@@ -93,7 +104,11 @@ a {
 .product-groups-item {
 	text-align: center;
 }
-.product-groups-item a {
+.product-groups-item a,
+.breadcrumbs a,
+.sorting-attribute a,
+.catalog-item a,
+.pagination a {
 	color: #000000;
 }
 /*Почему у меня надписи права от изображений,  а не под ними? Или это пока нормально?*/
@@ -107,13 +122,35 @@ a {
 	list-style: none;
 	text-transform: uppercase;
 }
-.service-item-current h3 {
+.catalog-item h3 {
+	font-family: 'Gilroy', 'Arial', sans-serif;
+	font-size: 18px;
+	line-height: 24px;
+	font-weight: 800;
+	color: #000000;
+	background-color: #ffffff;
+}
+.service-item-current h3,
+.about-us h2,
+.contacts h2,
+.goods h1 {
 	font-family: 'Gilroy', 'Arial', sans-serif;
 	font-size: 47px;
 	line-height: 48px;
 	font-weight: 800;
 	color: #000000;
 	background-color: #ffffff;
+}
+.filters h2,
+.catalog h2,
+.pagination li {
+	font-family: 'Gilroy', 'Arial', sans-serif;
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: 800;
+	color: #000000;
+	background-color: #ffffff;
+	text-transform: uppercase;
 }
 .service-item-current p {
 	font-family: 'Open Sans', 'Arial', sans-serif;
@@ -125,19 +162,14 @@ a {
 	background-position: top center;
 	background-repeat: no-repeat;
 }
-.partners-list {
+.partners-list,
+.color ul, /*почему здесь срабатывает правило?*/
+.bluetooth ul, /*а здесь не срабатывает правило?*/
+.catalog ul,
+.pagination ul {
 	list-style: none;
-
 }
-.about-us h2,
-.contacts h2 {
-	font-family: 'Gilroy', 'Arial', sans-serif;
-	font-size: 47px;
-	line-height: 48px;
-	font-weight: 800;
-	color: #000000;
-	background-color: #ffffff;
-}
+ 
 .about-us p,
 .contacts p {
 	font-family: 'Open Sans', 'Arial', sans-serif;
