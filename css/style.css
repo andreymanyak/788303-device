@@ -228,4 +228,6 @@ a {
 .footer-social ul {
 	list-style: none;
 }
- 
+fieldset {
+	border: none;
+ }
